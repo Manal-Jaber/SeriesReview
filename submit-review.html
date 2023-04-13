@@ -1,0 +1,49 @@
+<html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Series Review App - Home</title>
+      <link rel="stylesheet" href="style.css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="icon" type="image/x-icon" href="/favicon.png">
+    </head>
+    <body>
+        <header>
+            <nav>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/submit-review.html">Submit Reviews</a></li>
+            </ul>
+            </nav>
+        </header>
+        <form class="form" id="submit-review" action="">
+            <label>
+                Name:
+                <input type="text" required id="submit-review_name" class="name" placeholder="Name of the series"/>
+            </label>
+            <label>
+                Rating:
+                <select required name="rating" id="submit-review_rating" class="rating">
+                    <option value="1">1 star</option>
+                    <option value="2">2 stars</option>
+                    <option value="3">3 stars</option>
+                    <option value="4">4 stars</option>
+                    <option value="5">5 stars</option>
+                    </select>
+            </label>
+            <label>
+                Image:
+                <input required type="file" id="submit-review_img" class="img" name="img" accept="image/*">
+            </label>
+            <label>
+                Review:
+                <textarea required id="submit-review_review" name="review" class="review" rows="4" placeholder="Write your review here"></textarea>
+            </label>
+            <input type="submit" name="submit" class="submit" id="submit"/>
+        </form>
+        <script type="module" src="submit-review.js"></script>
+        <footer>
+        <p>&copy; 2023 Series Review App. All rights reserved.</p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,46 @@
+{
+    "series": [
+        {
+            "name": "The Crown",
+            "rating":  3,
+            "photo": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSdAjF4Q0XB16Y9wo7Vo1QV4UCAxaGnqCsmWOVMmIJsHrhjCUOf",
+            "review": "This show is amazing! The acting is top-notch, the costumes and sets are gorgeous, and the storylines are gripping. Highly recommended!"
+        },
+        {
+            "name": "Stranger Things",
+            "rating":  3,
+            "photo": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjEzMDAxOTUyMV5BMl5BanBnXkFtZTgwNzAxMzYzOTE@._V1_.jpg",
+            "review": "Stranger Things is one of the best shows on TV right now. The writing is smart, the cast is fantastic, and the visuals are stunning. If you haven't seen it yet, you're missing out!"
+        },
+        {
+            "name": "The Queen's Gambit",
+            "rating":  3,
+            "photo": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTxVct_x_OfKC4W8vynwCAjOYNKnG8L7mgfVHCS3piUA1AJIZ-4",
+            "review": "The Queen's Gambit is a masterpiece. The story is compelling, the acting is superb, and the visuals are breathtaking. Don't miss out on this one!"
+        },
+        {
+            "name": "Breaking Bad",
+            "rating": 5,
+            "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEUOnXKnRL0jeo6y4_Nzt0RggJHYbxI_RjJUgCvmdG28BAwpAx",
+            "review": "One of the best shows I've ever seen. The acting is incredible and the plot is intense."
+        },
+        {
+            "name": "Game of Thrones",
+            "rating": 5,
+            "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQaEFnTagipxGek320Ytdkfar67mGKRrTgb4YhvIq1bKxjGDZ5",
+            "review": "This show is amazing! The characters are complex and the storyline is epic."
+        },
+        {
+            "name": "The Office",
+            "rating": 4,
+            "photo": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSpUkHaqfWzj4D5wcEQjIZgC-P3A1VGUK4FGR0xT3KPdvGYAsiz",
+            "review": "This show is hilarious! The characters are all so funny and relatable."
+        },
+        {
+            "name": "Friends",
+            "rating": 5,
+            "photo": "https://m.media-amazon.com/images/M/MV5BNDVkYjU0MzctMWRmZi00NTkxLTgwZWEtOWVhYjZlYjllYmU4XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_.jpg",
+            "review": "All times best. Can watch it all the time several times after 40 years and still laugh."
+        }
+    ]
+}
