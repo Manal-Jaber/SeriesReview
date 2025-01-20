@@ -1,4 +1,3 @@
-import seriesList from "./series-database.json" assert { type: "json" };
 const sectionList = document.getElementById("section-list");
 function createListChild(name, rating, review, photo) {
   // image
@@ -37,12 +36,16 @@ function createListChild(name, rating, review, photo) {
   li.appendChild(reviewP);
   return li;
 }
-seriesList?.series?.map((item, index) => {
-  const child = createListChild(
-    item?.name,
-    item?.rating,
-    item?.review,
-    item?.photo
-  );
-  sectionList?.appendChild(child);
+fetch("./series-database.json")
+.then(response => response.json())
+.then(seriesList => {
+  seriesList?.series?.map((item, index) => {
+    const child = createListChild(
+      item?.name,
+      item?.rating,
+      item?.review,
+      item?.photo
+    );
+    sectionList?.appendChild(child);
+  });
 });
